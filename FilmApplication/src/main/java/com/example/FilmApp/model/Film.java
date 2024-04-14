@@ -1,15 +1,12 @@
 package com.example.FilmApp.model;
 
-import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
 
-@Getter
-@Setter
-@AllArgsConstructor
-@NoArgsConstructor
+import lombok.Data;
+
+import javax.persistence.*;
+
+@Data
+@Table(name = "sv_24_2021")
 @Entity
 public class Film {
     @Id
